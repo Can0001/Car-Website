@@ -6,6 +6,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+a{
+    color: black;
 }
 
 p{
@@ -145,3 +156,55 @@ h1{
     position: absolute;
     bottom: 26px;
 }
+
+.footer {
+    padding: 20px 0; 
+}
+
+.footer .footer-content .footer-social{
+    display: flex;
+    justify-content: center; 
+}
+
+.footer .footer-content .footer-social .footer-list{
+    display: flex;
+    column-gap: 20px; 
+    padding: 0;
+}
+
+.footer .footer-content .footer-social li {
+    font-size: 45px;
+    display: inline;
+    padding: 0.6rem;
+}
+
+.footer .footer-content .footer-social li a i{
+    transition: ease 0.5s;
+}
+
+.footer .footer-content .footer-social li a :hover{
+    transform: translateY(-10px);
+}
+
+.footer .footer-content .footer-list{
+    display: flex;
+    justify-content: center; 
+}
+
+.footer .footer-content .footer-list li{
+    font-size: 18px;
+    display: inline;
+    padding: 0.6rem;
+}
+.footer .footer-content .footer-list li a{
+    transition: ease 0.5s;
+}
+
+.footer .footer-content .footer-list li :hover{
+    color: rgb(250, 133, 0);
+}
+
+
+
+
+
